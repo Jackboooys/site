@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <script src="js/login-popup.js" defer></script>
+    <title>Студенты</title>
+</head>
+
+<body class="page">
+    <header class="header student-header">
+        <div class="login-popup">
+            <h2 class="login-heading">Войти на сайт</h2>
+            <form class="login-form" action="" method="get">
+                <input class="login-input" name="login" type="text" placeholder="Логин" required="">
+                <input class="password-unput" name="password" type="password" placeholder="Пароль" required="">
+                <button class="popup-button" type="submit">Войти</button>
+            </form>
+        </div>
+        <img class="logo" src="img/logo.svg" alt="logo">
+        <ul class="menu-spisok">
+            <li class="content-menu"><a class="text-menu" href="index.html">Главная</a></li>
+            <li class="content-menu"><a class="text-menu activ-text" href="student.html">Студенты</a></li>
+            <li class="content-menu"><a class="text-menu" href="about.html">О курсе</a></li>
+            <li class="content-menu"><a class="text-menu" href="contact.html">Контакты</a></li>
+        </ul>
+        <a class="enter-button" href="login.html">Войти</a>
+    </header>
+    <main class="main main-students">
+        <h1 class="webpage-1 student-heading">Студенты потока 08.02.2020 👧👦</h1>
+        <div class="students">
+            <section class="avatar-students">
+                <a class="student-link" href="#">
+                    <img src="img/avatar-girl.svg" alt="Аватар" width="200" height="270">
+                    <p class="name-student">Мария Александрова</p>
+                </a>
+            </section>
+            <section class="avatar-students">
+                <a class="student-link" href="mypage.html">
+                    <img src="img/me.jpg" alt="Аватар" width="200" height="270">
+                    <p class="name-student">Максим</p>
+                </a>
+                <span class="new-student">Новичок</span>
+            </section>
+            <section class="avatar-students">
+                <a class="student-link" href="#">
+                    <img src="img/avatar-girl.svg" alt="Аватар" width="200" height="270">
+                    <p class="name-student">Мария Александрова</p>
+                </a>
+            </section>
+            <section class="avatar-students">
+                <a class="student-link" href="#">
+                    <img src="img/avatar_Ivanov.svg" alt="Аватар" width="200" height="270">
+                    <p class="name-student">Василий Иванов</p>
+                </a>
+            </section>
+            <section class="avatar-students">
+                <a class="student-link" href="#">
+                    <img src="img/avatar_Ivanov.svg" alt="Аватар" width="200" height="270">
+                    <p class="name-student">Василий Иванов</p>
+                </a>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+
+        <p class="copy">2022 &copy; <a class="website" href="https://innopolis.com/">Иннополис</a> </p>
+
+    </footer>
+</body>
+
+</html>

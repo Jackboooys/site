@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <script src="js/login-popup.js" defer></script>
+
+    <title>Контакты</title>
+</head>
+
+<body class="page">
+    <header class="header">
+        <img class="logo" src="img/logo.svg" alt="logo">
+        <ul class="menu-spisok">
+            <li class="content-menu"><a class="text-menu" href="index.html">Главная</a></li>
+            <li class="content-menu"><a class="text-menu" href="student.html">Студенты</a></li>
+            <li class="content-menu"><a class="text-menu" href="about.html">О курсе</a></li>
+            <li class="content-menu"><a class="text-menu activ-text" href="contact.html">Контакты</a></li>
+        </ul>
+        <a class="enter-button" href="login.html">Войти</a>
+        <div class="login-popup">
+            <h2 class="login-heading">Войти на сайт</h2>
+            <form class="login-form" action="" method="get">
+                <input class="login-input" name="login" type="text" placeholder="Логин" required="">
+                <input class="password-unput" name="password" type="password" placeholder="Пароль" required="">
+                <button class="popup-button" type="submit">Войти</button>
+            </form>
+        </div>
+    </header>
+    <main class="main contact-main">
+        <h1 class="webpage-contact">Как нас найти 🗺️️</h1>
+        <div class="map">
+            <iframe class="google-map"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15984.711251090632!2d30.327843174338764!3d59.94725918709078!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46963110ebe9ea5b%3A0x86b0025c5a84a071!2z0JTQstC-0YDRhtC-0LLQsNGPINC_0LsuLCAyLCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywgMTkwMDAw!5e0!3m2!1sru!2sru!4v1665662859019!5m2!1sru!2sru"
+                width="600" height="370" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <h2 class="contact-text">Наши контакты</h2>
+        <address class="address">
+            <p>Адрес: г. Санкт-Петербург, Дворцовая пл., 2, 190000</p>
+            <a class="address-tel" href="tel:+78125555555">Тел: +7 (812) 555-55-55</a>
+        </address>
+    </main>
+    <footer class="footer">
+
+        <p class="copy">2022 &copy; <a class="website" href="https://innopolis.com/">Иннополис</a> </p>
+
+    </footer>
